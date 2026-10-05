@@ -25,15 +25,15 @@ Trạng thái sử dụng: Chưa bắt đầu / Đang làm / Cần hỗ trợ / 
 
 | Công việc | Người phụ trách | Người kiểm tra | Đầu ra cần bàn giao | Hạn hoàn thành | Trạng thái | Tệp liên quan / nơi lưu bằng chứng |
 | --- | --- | --- | --- | --- | --- | --- |
-| Nghiên cứu MUSIQ, YOLO và xác định baseline | Nguyễn Thái Anh | Nguyễn Văn Giáp | Ghi chú phương pháp; thiết lập ảnh sạch; định nghĩa metric và số baseline | [Ngày] | [Cần cập nhật] | [report.md](report.md), [summary.csv](summary.csv) |
-| Nghiên cứu mờ, nhiễu, che khuất và các mức lỗi | Trần Ngọc Khuyến | Nguyễn Thái Anh | Bảng tham số, đơn vị, nguồn tham khảo; phân biệt lỗi mô phỏng và lỗi sensor thực tế | [Ngày] | [Cần cập nhật] | [config.json](config.json), [report.md](report.md) |
-| Chuẩn bị dữ liệu, cấu hình và chạy baseline | Nguyễn Văn Giáp | Nguyễn Thái Anh | Danh sách ảnh; cấu hình tái lập; kết quả ảnh sạch và log chạy | [Ngày] | [Cần cập nhật] | [selected_images.json](selected_images.json), [config.json](config.json), [camera-health-kaggle.ipynb](camera-health-kaggle.ipynb) |
-| Chạy benchmark mờ, nhiễu và che khuất | Nguyễn Văn Giáp | Vũ Tiến Linh | Kết quả từng ảnh và tổng hợp cho từng mức lỗi | [Ngày] | [Cần cập nhật] | [per_image_results.csv](per_image_results.csv), [summary.csv](summary.csv) |
-| Chốt metrics và đối chiếu số liệu báo cáo | Nguyễn Văn Giáp | Nguyễn Thái Anh | Baseline, số khi lỗi, chênh lệch, đơn vị; bảng tương quan và kiểm tra xu hướng | [Ngày] | [Cần cập nhật] | [summary.csv](summary.csv), [correlations.csv](correlations.csv), [monotonicity.csv](monotonicity.csv), [report.md](report.md) |
-| Chạy phép thử che khuất theo cặp và kiểm chứng failure case | Vũ Tiến Linh | Nguyễn Văn Giáp | Mã ảnh, lớp mục tiêu, biến thể nền/mục tiêu, trạng thái phát hiện, chênh lệch MUSIQ; ảnh hoặc log minh họa | [Ngày] | [Cần cập nhật] | [occlusion_pairs.csv](occlusion_pairs.csv), [camera-health-kaggle.ipynb](camera-health-kaggle.ipynb) |
-| Phân tích hạn chế và ảnh hưởng đến nhiệm vụ | Đoàn Quang Minh | Trần Ngọc Khuyến | Hạn chế có nguồn; phân biệt kết quả đo trực tiếp với suy luận | [Ngày] | [Cần cập nhật] | [report.md](report.md), [Nguồn paper/repo] |
-| Đề xuất cải tiến/fallback và cách kiểm chứng | Đoàn Quang Minh | Vũ Tiến Linh | Phương án cải tiến; thiết kế thử nghiệm và tiêu chí đánh giá | [Ngày] | [Cần cập nhật] | [report.md](report.md) |
-| Tổng hợp nội dung nghiên cứu vào báo cáo | Nguyễn Thái Anh | Đoàn Quang Minh | Báo cáo có đủ 5 câu hỏi–bằng chứng; số liệu được Giáp đối chiếu và failure case được Linh kiểm chứng | [Ngày] | [Cần cập nhật] | [report.md](report.md) |
+| Nghiên cứu MUSIQ, YOLO và xác định baseline | Nguyễn Thái Anh | Nguyễn Văn Giáp | Ghi chú phương pháp; thiết lập ảnh sạch; định nghĩa metric và số baseline | 05/09/2026 | Hoàn Thành | [report.md](report.md), [summary.csv](summary.csv) |
+| Nghiên cứu mờ, nhiễu, che khuất và các mức lỗi | Trần Ngọc Khuyến | Nguyễn Thái Anh | Bảng tham số, đơn vị, nguồn tham khảo; phân biệt lỗi mô phỏng và lỗi sensor thực tế | 05/09/2026 | Hoàn Thành | [config.json](config.json), [report.md](report.md) |
+| Chuẩn bị dữ liệu, cấu hình và chạy baseline | Nguyễn Văn Giáp | Nguyễn Thái Anh | Danh sách ảnh; cấu hình tái lập; kết quả ảnh sạch và log chạy | 05/09/2026 | Hoàn Thành | [selected_images.json](selected_images.json), [config.json](config.json), [camera-health-kaggle.ipynb](camera-health-kaggle.ipynb) |
+| Chạy benchmark mờ, nhiễu và che khuất | Nguyễn Văn Giáp | Vũ Tiến Linh | Kết quả từng ảnh và tổng hợp cho từng mức lỗi | 05/09/2026 | Hoàn Thành | [per_image_results.csv](per_image_results.csv), [summary.csv](summary.csv) |
+| Chốt metrics và đối chiếu số liệu báo cáo | Nguyễn Văn Giáp | Nguyễn Thái Anh | Baseline, số khi lỗi, chênh lệch, đơn vị; bảng tương quan và kiểm tra xu hướng | 05/09/2026 | Hoàn Thành | [summary.csv](summary.csv), [correlations.csv](correlations.csv), [monotonicity.csv](monotonicity.csv), [report.md](report.md) |
+| Chạy phép thử che khuất theo cặp và kiểm chứng failure case | Vũ Tiến Linh | Nguyễn Văn Giáp | Mã ảnh, lớp mục tiêu, biến thể nền/mục tiêu, trạng thái phát hiện, chênh lệch MUSIQ; ảnh hoặc log minh họa | 05/09/2026 | Hoàn Thành | [occlusion_pairs.csv](occlusion_pairs.csv), [camera-health-kaggle.ipynb](camera-health-kaggle.ipynb) |
+| Phân tích hạn chế và ảnh hưởng đến nhiệm vụ | Đoàn Quang Minh | Trần Ngọc Khuyến | Hạn chế có nguồn; phân biệt kết quả đo trực tiếp với suy luận | 05/09/2026 | Hoàn Thành | [report.md](report.md), [Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Ke_MUSIQ_Multi-Scale_Image_Quality_Transformer_ICCV_2021_paper.html), [Github Repository](https://github.com/chaofengc/IQA-PyTorch?utm_source=chatgpt.com) |
+| Đề xuất cải tiến/fallback và cách kiểm chứng | Đoàn Quang Minh | Vũ Tiến Linh | Phương án cải tiến; thiết kế thử nghiệm và tiêu chí đánh giá | 05/09/2026 | Hoàn Thành | [report.md](report.md) |
+| Tổng hợp nội dung nghiên cứu vào báo cáo | Nguyễn Thái Anh | Đoàn Quang Minh | Báo cáo có đủ 5 câu hỏi–bằng chứng; số liệu được Giáp đối chiếu và failure case được Linh kiểm chứng | 05/09/2026 | Hoàn Thành | [report.md](report.md) |
 
 ## Trách nhiệm theo câu hỏi của báo cáo
 
@@ -61,8 +61,8 @@ Các báo cáo tổng hợp từ kết quả chạy chung; xem [danh mục báo 
 
 | Thành viên | Báo cáo |
 | --- | --- |
-| Nguyễn Thái Anh | [Báo cáo kết quả](reports/nguyen_thai_anh.md) |
-| Nguyễn Văn Giáp | [Báo cáo kết quả](reports/nguyen_van_giap.md) |
-| Trần Ngọc Khuyến | [Báo cáo kết quả](reports/tran_ngoc_khuyen.md) |
-| Đoàn Quang Minh | [Báo cáo kết quả](reports/doan_quang_minh.md) |
-| Vũ Tiến Linh | [Báo cáo kết quả](reports/vu_tien_linh.md) |
+| Nguyễn Thái Anh | [Báo cáo kết quả](reports/2A202602810_NguyenThaiAnh.md) |
+| Nguyễn Văn Giáp | [Báo cáo kết quả](reports/2A202602903_NguyenVanGiap.md) |
+| Trần Ngọc Khuyến | [Báo cáo kết quả](reports/2A202602682_TranNgocKhuyen.md) |
+| Đoàn Quang Minh | [Báo cáo kết quả](reports/2A202602711_DoanQuangMinh.md) |
+| Vũ Tiến Linh | [Báo cáo kết quả](reports/2A202602657_VuTienLinh.md) |
