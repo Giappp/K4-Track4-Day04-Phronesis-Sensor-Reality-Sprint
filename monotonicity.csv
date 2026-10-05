@@ -1,0 +1,7 @@
+corruption,score,fraction_nonincreasing_steps
+blur,musiq,1.0
+blur,sharpness,1.0
+noise,musiq,0.9866666666666667
+noise,sharpness,0.0
+occlusion,musiq,0.8
+occlusion,sharpness,0.9133333333333333

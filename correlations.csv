@@ -1,0 +1,17 @@
+corruption,score,outcome,rho,n_pairs
+all,musiq,recall,0.07777322668508746,450
+all,musiq,retention,0.1311690584065988,450
+all,sharpness,recall,-0.10462185173686518,450
+all,sharpness,retention,-0.08067109894134625,450
+blur,musiq,recall,0.3593445889085553,150
+blur,musiq,retention,0.48714477715778626,150
+blur,sharpness,recall,0.2234955112219528,150
+blur,sharpness,retention,0.39253431642262954,150
+noise,musiq,recall,0.24277121277036368,150
+noise,musiq,retention,0.43049381921604063,150
+noise,sharpness,recall,-0.2988410412324079,150
+noise,sharpness,retention,-0.30817251683359737,150
+occlusion,musiq,recall,0.03774999030100794,150
+occlusion,musiq,retention,0.2093489876240916,150
+occlusion,sharpness,recall,-0.23136260973321232,150
+occlusion,sharpness,retention,-0.1063033625418899,150
